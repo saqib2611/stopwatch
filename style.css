@@ -1,0 +1,36 @@
+
+.container{
+    margin: 0px;
+    padding: 0px;
+background-image: url(images/universe-space-beautiful-background-great-for-your-vector-4481504.jpg);
+
+}
+.stop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+color: grey;
+
+text-shadow: 3px 3px 4px  rgb(207, 23, 131);
+font-size: 40px;
+
+
+
+}
+.butt{
+  height: 50px;
+        width: 100px;
+        color: rgb(89, 180, 241);
+        background-color: rgb(206, 20, 212);
+      margin: 20px;
+        border-radius: 4px;
+        box-shadow:3px 3px 4px  rgb(221, 52, 151) ;
+        
+}
+.im{
+    margin-left: 470px;
+    box-shadow:6px 6px 7px  rgb(175, 18, 104) ;
+}
+#but{
+    text-align: center;
+   
+}

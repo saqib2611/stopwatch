@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<style>
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+color: rgba(236, 15, 70, 0.767);
+
+text-shadow: 3px 3px 4px  rgb(88, 76, 83);
+font-size: 40px;
+       
+       
+    }
+    h2{
+        display: inline-block ;
+        width: 100px;
+        color: rgb(89, 180, 241);
+        background-color: rgb(206, 20, 212);
+        margin: 30px;
+        text-align: center !important;
+        height: 50px;
+        box-shadow:6px 6px 7px  rgb(219, 17, 101) ;
+        border-radius: 4px;
+       
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="outer">
+            <div class="details">
+                <a href=""></a>
+                <h1 class="stop"> Stopwatch Application</h1>
+                <a href=""> 
+                    <img class="im"   src='images/vintage-clock-background-shiny-violet-decor-thumb.jpg'   width="400px" height="400px"  alt="">
+                </a>
+
+            </div>
+          <div id="but" >
+              <h2 id="min">0</h2>
+              <h2 id="sec">0</h2>
+              <h2 id="msec">0</h2>
+          </div>
+          <div id="but">
+              <button class="butt" onclick="start()" > <img src="images/computer-icons-youtube-play-button-clip-art-png-favpng-CAJLzqEytsJNjiLkEGzshxfxj.jpg" alt="" srcset="" width="25px">   Start</button>
+              <button class="butt"onclick=" stop()"> <img src="images/pause-circle-512.png" alt="" srcset=""width='25px'   >    Stop</button>
+              <button class="butt" onclick=" reset()"> <img src="images/imgbin-arrow.jpg" alt="" srcset="" width="25px">    Reset</button>
+          </div>
+          <div>
+              <h1>
+                  Powered by<br>
+                  Saqib jameel
+              </h1>
+          </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
